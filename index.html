@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Maomao's Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section id="container">
+      <video autoplay loop muted poster="images/bg1" id="bgvid">
+          <source src="video/cat.mp4" type="video/mp4">
+      </video>
+  <header>
+    <hgroup>
+      <h1>Maomao is a cute cat</h1>
+      <h2>Daily Life</h2>
+    </hgroup>
+  </header>
+
+  <nav class="topnav" id="myTopnav">
+    <a href="index.html">home</a>
+    <a href="intro.html">Introduction</a>
+    <a href="daily_life.html">Daily Life</a>
+    <a href="gallery.html">gallery</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+  <article class="text">
+      <h1>Cutest cat</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quae aspernatur temporibus maxime, a voluptate consequatur ut obcaecati deserunt sapiente iste cum recusandae commodi dolore eius laudantium iure deleniti eligendi!</p>
+      <p>Facere perspiciatis error doloremque maiores sint quibusdam explicabo ab aspernatur ea itaque. Libero, aliquid molestias minus velit provident ex corporis ea eos hic explicabo natus accusantium ad quod distinctio at!</p>
+      <p>Placeat corporis impedit veritatis, tempora sint reprehenderit fuga natus ipsum iste rerum. Harum quo voluptatum inventore quis sequi. Sequi ratione magnam molestias consequatur quo illo reiciendis fugit voluptatibus porro sunt.</p>
+      <p>Error rerum perspiciatis, consectetur illum qui accusantium veniam pariatur aliquid tempora, quam ex iusto esse modi dignissimos optio possimus molestias eveniet delectus ducimus ipsum. Provident voluptate harum enim ducimus minus.</p>
+  </article>
+</body>
+</html>
